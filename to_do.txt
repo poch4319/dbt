@@ -1,0 +1,10 @@
+use macro and type casting
+
+Building a source table: stg_fhv_tripdata
+Building a fact table: fact_fhv_trips
+
+What is the count of records in the model fact_trips after running all 
+models with the test run variable disabled and filtering for 2019 and 2020 data only (pickup datetime)?
+
+staging -> type casting and prepare the data
+fact -> combine the stages data (preprocessed data) together and create buisness metrics or graphs
