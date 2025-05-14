@@ -69,22 +69,6 @@ This command will execute the models and create the tables in the specified data
 
 This project demonstrates the power of dbt in creating and managing a star schema data warehouse. By using dbt, you can ensure data quality, maintainability, and scalability in your data transformation processes. The integration of the `dim_dates` model with the `fact_orders` table showcases the benefits of a well-designed star schema, enabling advanced analytics and reporting capabilities.
 
----
-
-This README provides a detailed overview of the project, focusing on the use of dbt and the implementation of a star schema. If you have any specific questions or need further clarification on any part, feel free to ask!
-
-
-Let's address the importance, usage, and organization of files in a dbt project. I'll provide a detailed explanation of the key files and their roles within a dbt project, as well as where they should be placed.
-
----
-
-# README
-
-## Overview
-
-This repository is a demonstration of using dbt (Data Build Tool) to implement a star schema data warehouse model. The project is centered around the `classicmodels` database, which is a sample database often used for educational purposes. The primary focus is on creating a star schema with fact and dimension tables, and leveraging dbt to manage and transform the data.
-
-
 ### 5. dbt Project Structure
 
 #### Key Files and Their Roles
