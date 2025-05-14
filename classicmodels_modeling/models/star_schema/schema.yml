@@ -13,9 +13,12 @@ models:
       - name: employee_key
       - name: office_code
       - name: product_key
-      - name: order_date
-      - name: order_required_date
-      - name: order_shipped_date
+      - name: order_date_key
+        description: Foreign key to dim_dates for the order date
+      - name: required_date_key
+        description: Foreign key to dim_dates for the required date
+      - name: shipped_date_key
+        description: Foreign key to dim_dates for the shipped date
       - name: quantity_ordered
       - name: product_price
       
